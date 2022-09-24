@@ -19,7 +19,7 @@ body{
     border-radius: 15px;
 }
 .scroll-itme{
-    height: 91%;
+    height: 84%;
     overflow-y: scroll;
 }
 .remove{
@@ -35,6 +35,9 @@ body{
     &-thumb {
       background: #dc3545;
     }
+  }
+  .fee{
+    font-weight: 500;
   }
 @media screen and (min-width:1024px) {}
 @media screen and (min-width:768px) and (max-width:1023px) {

@@ -25,7 +25,7 @@ body {
 }
 
 .scroll-itme {
-  height: 91%;
+  height: 84%;
   overflow-y: scroll;
 }
 
@@ -43,6 +43,10 @@ body {
 
 .offcanvas-body ::-webkit-scrollbar-thumb {
   background: #dc3545;
+}
+
+.fee {
+  font-weight: 500;
 }
 
 @media screen and (max-width: 767px) {
