@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.offcanvas-header h2{
+    letter-spacing: 8px;
+    font-weight: 700;
+}
+.offcanvas-end{
+    width: 35% !important;
+}
+.info-card-item span{
+    background-color: #dc3545;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 15px;
+}
+.scroll-itme{
+    height: 91%;
+    overflow-y: scroll;
+}
+.remove{
+    right: 10px;
+    position: absolute;
+    font-size: 22px;
+    cursor: pointer;
+}
+.offcanvas-body ::-webkit-scrollbar {
+    width: 5px;
+    background: #fff;
+  
+    &-thumb {
+      background: #dc3545;
+    }
+  }
+@media screen and (min-width:1024px) {}
+@media screen and (min-width:768px) and (max-width:1023px) {
+ 
+}
+@media screen and (max-width:767px) {
+    .offcanvas-end{
+        width: 80% !important;
+    }
+}
